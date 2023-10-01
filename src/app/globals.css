@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  @apply text-center text-2xl;
+}
+.grid-buttons {
+  @apply grid grid-cols-3 gap-4;
+}
