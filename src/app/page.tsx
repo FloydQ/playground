@@ -3,6 +3,7 @@ import { useState } from 'react'
 
 export default function Home() {
   const [state, setState] = useState<number>(0)
+  const [choco, setChoco] = useState<string>('')
   return (
     <main>
       <p className="title">{state}</p>
